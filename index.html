@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>课程表</title>
+	<style>
+	*{
+		margin: 0px;
+	}
+		.kcb{
+			width: 450px;
+			height: 205px;
+			margin:50px;
+			/*background: #E47833;*/
+		}
+
+	</style>
+	<script>
+	
+	window.onload=function(){
+			var aLi=document.getElementsByTagName('tr');
+
+			for (var i=0;i<aLi.length;i++)
+			{
+				if(i%2==0){
+					aLi[i].style.background='#eae';
+						}
+				else{
+					aLi[i].style.background='#ffee00';
+					}
+			}
+		}
+
+	</script>
+</head>
+<body>
+	<div class="kcb">
+		<table border="2">
+			<tr>
+				<th>时间</th>
+				<th>周一</th>
+				<th>周二</th>
+				<th>周三</th>
+				<th>周四</th>
+				<th>周五</th>
+				<th>周六</th>
+				<th>周日</th>
+			</tr>
+			<tr>
+				<td>08:00-08:45</td>
+				<td>语  文</td>
+				<td>数  学</td>
+				<td>外  语</td>
+				<td>书  法</td>
+				<td>音  乐</td>
+				<td>体  育</td>
+				<td>美  术</td>
+			</tr>
+			<tr>
+				<td>08:55-09:40</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>10:00-10:45</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>10:55-11:40</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>13:00-13:45</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>13:55-14:40</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>14:50-15:30</td>
+				<td>自  习</td>
+				<td>自  习</td>
+				<td>自  习</td>
+				<td>自  习</td>
+				<td>自  习</td>
+				<td>自  习</td>
+				<td>自  习</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
